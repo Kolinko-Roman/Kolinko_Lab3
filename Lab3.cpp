@@ -11,9 +11,7 @@ int main() {
     int a = 0, b = 1, c = 0, d = 1;
     cout << "Перші " << n << " чисел Фібоначчі: ";
     while (d <= n) {
-        if (d == 1) {
-            cout << a << " ";
-        } else if (d == 2) {
+        if (d == 2) {
             cout << b << " ";
         } else {
             c = a + b;
@@ -25,3 +23,4 @@ int main() {
     }
     return 0;
 }
+
